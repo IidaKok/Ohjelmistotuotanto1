@@ -28,7 +28,7 @@ namespace Ohjelmistotuotanto_Projekti
             InitializeComponent();
         }
 
-        MySqlConnection connection = new MySqlConnection("Server=localhost; Port=3307; Database=vn; Uid=root; Pwd=Ruutti");
+        MySqlConnection connection = new MySqlConnection("Server=localhost; Port=3307; Database=vn; Uid=root; Pwd=ruutti");
         MySqlCommand command;
 
 
@@ -49,7 +49,7 @@ namespace Ohjelmistotuotanto_Projekti
             {
                 cbPostinro.Items.Add(reader["postinro"]);
             }
-            MySqlConnection connection2 = new MySqlConnection("Server=localhost; Port=3307; Database=vn; Uid=root; Pwd=Ruutti");
+            MySqlConnection connection2 = new MySqlConnection("Server=localhost; Port=3307; Database=vn; Uid=root; Pwd=ruutti");
 
             connection2.Open();
             MySqlCommand command2;
